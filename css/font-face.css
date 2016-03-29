@@ -1,0 +1,51 @@
+@font-face {
+    font-family: "Ubuntu"; /* Имя шрифта */
+    src: url(../fonts/UbuntuMono-R.ttf); /* Путь к файлу со шрифтом */
+}
+
+.box.costs .box-body {
+    max-height: 515px;
+    overflow: auto;
+}
+
+.box.registry .box-body {
+    max-height: 500px;
+    overflow: auto;
+}
+
+.box.fuels .box-body {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.box-body, .box-footer {
+    font-family: monospace;
+}
+
+.total, .balance {
+    font-weight: bold;
+}
+
+.filter {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.filter .form-control {
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+.logo-img {
+    display: inline-block;
+    float: left;
+    width: 48px;
+    height: 50px;
+    background-image: url("../images/logo.png");
+    background-size: cover;
+}
+
+.hidden-field {
+    display: none;
+}
